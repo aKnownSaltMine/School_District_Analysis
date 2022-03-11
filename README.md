@@ -1,6 +1,5 @@
 # School_District_Analysis
 ## Overview
-* Overview of the school district analysis: Explain the purpose of this analysis.
 The original purpose of this analysis was to provide and overview of the following metrics across multiple levels of the school district from distric level to grade:
 
 * Total Students
@@ -48,9 +47,11 @@ By removing the THS 9th grade scores, only the THS overall scores were changed i
 Overall these changes were not enough to bring Thomas High School's overall passing rate out of the top 5 perfoming schools, though the differences did bring it much closer to tying for third with Griffin High School as seen below.
 
 **Top 5 Performing Schools removed THS Grades**
+
 ![Top 5 Performing Schools removed THS Grades](https://github.com/aKnownSaltMine/School_District_Analysis/blob/main/Resources/Tables/Top_5_Performing_Schools_cleaned.PNG)
 
 **Top 5 Performing Schools including THS Grades**
+
 ![Top 5 Performing Schools including THS Grades](https://github.com/aKnownSaltMine/School_District_Analysis/blob/main/Resources/Tables/Top_5_Performing_Schools_w_THS.PNG) 
 
 
@@ -61,47 +62,60 @@ By replacing the Thomas High School 9th Grade test scores with null values, the 
 * The Thomas High School 9th grade Math average of 83.6% was dropped leaving all other schools' grade level averages alone. 
 
 **Math Scores by Grade Cleaned**
+
 ![Math Scores by Grade Cleaned](https://github.com/aKnownSaltMine/School_District_Analysis/blob/main/Resources/Tables/math_scores_by_grade_cleaned.PNG)
 
 **Math Scores by Grade with THS Grades**
+
 ![Math Scores by Grade with THS Grades](https://github.com/aKnownSaltMine/School_District_Analysis/blob/main/Resources/Tables/math_scores_by_grade_w_THS.PNG)
 
 ##### Reading
 * The Thomas High School 9th grade Reading average of 83.7% was dropped leaving all other schools' grade level averages alone. 
 
 **Reading Scores by Grade Cleaned**
+
 ![Reading Scores by Grade Cleaned](https://github.com/aKnownSaltMine/School_District_Analysis/blob/main/Resources/Tables/reading_scores_by_grade_cleaned.PNG)
 
 **Reading Scores by Grade with THS Grades**
+
 ![Reading Scores by Grade with THS Grades](https://github.com/aKnownSaltMine/School_District_Analysis/blob/main/Resources/Tables/reading_scores_by_grade_w_THS.PNG)
 
 #### Scores by school spending
 * The affect on the scores by school spending was less than 0.05% and does not show after chart formatting.
 
 **Scores by Spending Cleaned**
+
 ![Scores by Spending Cleaned](https://github.com/aKnownSaltMine/School_District_Analysis/blob/main/Resources/Tables/scores_by_spending_cleaned.PNG)
 
 **Scores by Spending with THS Grades**
+
 ![Scores by Spending with THS Grades](https://github.com/aKnownSaltMine/School_District_Analysis/blob/main/Resources/Tables/scores_by_spending_w_THS.PNG)
 
 #### Scores by school size
 * The affect on the scores by school size was less than 0.05% and does not show after chart formatting.
 
 **Scores by School Size Cleaned**
+
 ![Scores by School Size Cleaned](https://github.com/aKnownSaltMine/School_District_Analysis/blob/main/Resources/Tables/scores_by_school_size_cleaned.PNG)
 
 **Scores by School Size with THS Grades**
+
 ![Scores by School Size with THS Grades](https://github.com/aKnownSaltMine/School_District_Analysis/blob/main/Resources/Tables/scores_by_school_size_w_THS.PNG)
 
 #### Scores by school type
 * The affect on the scores by school type was less than 0.05% and does not show after chart formatting.
 
 **Scores by School Type Cleaned**
+
 ![Scores by School Type Cleaned](https://github.com/aKnownSaltMine/School_District_Analysis/blob/main/Resources/Tables/scores_by_school_type_cleaned.PNG)
 
 **Scores by School Type with THS Grades**
+
 ![Scores by School Type with THS Grades](https://github.com/aKnownSaltMine/School_District_Analysis/blob/main/Resources/Tables/scores_by_school_type_w_THS.PNG)
 
 ## Summary
-Summary: Summarize four changes in the updated school district analysis after reading and math scores for the ninth grade at Thomas High School have been replaced with NaNs.
-1. The Overall Passing levels decreased the most on the District Level summary, while leaving the averages largely the same. This speaks to the Thomas High School 9th graders not having excessively high grades, but *many* of them were passing overall. 
+In summary, the following are the most notable changes in placing all Thomas High School 9th grade test scores:
+* The Overall Passing levels decreased the most on the District Level summary, while leaving the averages largely the same. This speaks to the Thomas High School 9th graders not having excessively high grades, but *many* of them were passing overall. 
+* The Thomas High School Reading passing rate actually increased, while the rest of their averages and passing rates decreased by removing the 9th grader scores.
+* While the actual positions in the top 5 schools in the district did not change, the only thing that separates position number 2 with number 5 is less than 0.1% making it a lot tighter than it was before bringing out the Thomas High School 9th graders scores.
+* While there was an effect on the scores for the $630-644 spending bin, medium school size bin, and the Charter school type bin, it was less than 0.05% leading it to be obscured by chart formatting. 
