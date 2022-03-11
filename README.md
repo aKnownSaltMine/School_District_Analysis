@@ -18,7 +18,9 @@ However after the analysis was completed, allegations of cheating by the Thomas 
 Results: Using bulleted lists and images of DataFrames as support, address the following questions.
 
 ### District Level Results
+**District Summary with Removed THS Grades**
 ![District Summary with Removed THS Grades](https://github.com/aKnownSaltMine/School_District_Analysis/blob/main/Resources/Tables/District_Summary_Cleaned.PNG)
+**District Summary including THS Grades**
 ![District Summary including THS Grades](https://github.com/aKnownSaltMine/School_District_Analysis/blob/main/Resources/Tables/district_summary_w_THS.PNG)
 
 When comparing the above tables, the effects of the cheating on a district level is marginal at most. By removing the suspected test scores, the following happened:
@@ -29,8 +31,10 @@ When comparing the above tables, the effects of the cheating on a district level
 * The percentage passing overall descreased by 0.3%
 
 ### School Level Results
+**School Level Summary with Removed THS Grades**
 ![School Level Summary with Removed THS Grades](https://github.com/aKnownSaltMine/School_District_Analysis/blob/main/Resources/Tables/School_Summary_Cleaned.PNG)
 
+**School Level Summary with THS Grades Included**
 ![School Level Summary with THS Grades Included](https://github.com/aKnownSaltMine/School_District_Analysis/blob/main/Resources/Tables/school_summary_w_THS.PNG)
 
 By removing the THS 9th grade scores, only the THS overall scores were changed in the following ways:
@@ -43,8 +47,10 @@ By removing the THS 9th grade scores, only the THS overall scores were changed i
 - How does replacing the ninth graders’ math and reading scores affect Thomas High School’s performance relative to the other schools?
 Overall these changes were not enough to bring Thomas High School's overall passing rate out of the top 5 perfoming schools, though the differences did bring it much closer to tying for third with Griffin High School as seen below.
 
+**Top 5 Performing Schools removed THS Grades**
 ![Top 5 Performing Schools removed THS Grades](https://github.com/aKnownSaltMine/School_District_Analysis/blob/main/Resources/Tables/Top_5_Performing_Schools_cleaned.PNG)
 
+**Top 5 Performing Schools including THS Grades**
 ![Top 5 Performing Schools including THS Grades](https://github.com/aKnownSaltMine/School_District_Analysis/blob/main/Resources/Tables/Top_5_Performing_Schools_w_THS.PNG) 
 
 
@@ -53,32 +59,47 @@ By replacing the Thomas High School 9th Grade test scores with null values, the 
 #### Math and reading scores by grade
 ##### Math
 * The Thomas High School 9th grade Math average of 83.6% was dropped leaving all other schools' grade level averages alone. 
+
+**Math Scores by Grade Cleaned**
 ![Math Scores by Grade Cleaned](https://github.com/aKnownSaltMine/School_District_Analysis/blob/main/Resources/Tables/math_scores_by_grade_cleaned.PNG)
 
+**Math Scores by Grade with THS Grades**
 ![Math Scores by Grade with THS Grades](https://github.com/aKnownSaltMine/School_District_Analysis/blob/main/Resources/Tables/math_scores_by_grade_w_THS.PNG)
 
 ##### Reading
 * The Thomas High School 9th grade Reading average of 83.7% was dropped leaving all other schools' grade level averages alone. 
+
+**Reading Scores by Grade Cleaned**
 ![Reading Scores by Grade Cleaned](https://github.com/aKnownSaltMine/School_District_Analysis/blob/main/Resources/Tables/reading_scores_by_grade_cleaned.PNG)
 
+**Reading Scores by Grade with THS Grades**
 ![Reading Scores by Grade with THS Grades](https://github.com/aKnownSaltMine/School_District_Analysis/blob/main/Resources/Tables/reading_scores_by_grade_w_THS.PNG)
 
 #### Scores by school spending
-* The affect on the scores by school spending was less than 0.05% and does not show after chart formatting 
+* The affect on the scores by school spending was less than 0.05% and does not show after chart formatting.
+
+**Scores by Spending Cleaned**
 ![Scores by Spending Cleaned](https://github.com/aKnownSaltMine/School_District_Analysis/blob/main/Resources/Tables/scores_by_spending_cleaned.PNG)
 
+**Scores by Spending with THS Grades**
 ![Scores by Spending with THS Grades](https://github.com/aKnownSaltMine/School_District_Analysis/blob/main/Resources/Tables/scores_by_spending_w_THS.PNG)
 
 #### Scores by school size
-* The affect on the scores by school size was less than 0.05% and does not show after chart formatting 
+* The affect on the scores by school size was less than 0.05% and does not show after chart formatting.
+
+**Scores by School Size Cleaned**
 ![Scores by School Size Cleaned](https://github.com/aKnownSaltMine/School_District_Analysis/blob/main/Resources/Tables/scores_by_school_size_cleaned.PNG)
 
+**Scores by School Size with THS Grades**
 ![Scores by School Size with THS Grades](https://github.com/aKnownSaltMine/School_District_Analysis/blob/main/Resources/Tables/scores_by_school_size_w_THS.PNG)
 
 #### Scores by school type
-* The affect on the scores by school type was less than 0.05% and does not show after chart formatting 
+* The affect on the scores by school type was less than 0.05% and does not show after chart formatting.
+
+**Scores by School Type Cleaned**
 ![Scores by School Type Cleaned](https://github.com/aKnownSaltMine/School_District_Analysis/blob/main/Resources/Tables/scores_by_school_type_cleaned.PNG)
 
+**Scores by School Type with THS Grades**
 ![Scores by School Type with THS Grades](https://github.com/aKnownSaltMine/School_District_Analysis/blob/main/Resources/Tables/scores_by_school_type_w_THS.PNG)
 
 ## Summary
