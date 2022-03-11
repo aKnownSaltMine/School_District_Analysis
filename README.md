@@ -14,8 +14,6 @@ Also we aimed at providing an analysis of test scores when under certain conditi
 However after the analysis was completed, allegations of cheating by the Thomas High School (THS) 9th graders came to light. So, the analysis has changed to also include the effect that this might have had on the school after removing the Thomas High School 9th grade test scores. 
 
 ## Results
-Results: Using bulleted lists and images of DataFrames as support, address the following questions.
-
 ### District Level Results
 **District Summary with Removed THS Grades**
 ![District Summary with Removed THS Grades](https://github.com/aKnownSaltMine/School_District_Analysis/blob/main/Resources/Tables/District_Summary_Cleaned.PNG)
